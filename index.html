@@ -51,7 +51,7 @@
       <div class="carousel w-full">
         <div
           id="slide1"
-          class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner1.png)] h-[50vh] lg:h-[80vh] flex justify-center items-center"
+          class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner1.png)] bg-center bg-cover h-[50vh] lg:h-[80vh] flex justify-center items-center"
         >
           <div
             class="absolute top-5 right-5 lg:top-20 lg:right-20 text-white bg-red-400 px-4 py-2"
@@ -81,7 +81,7 @@
         </div>
         <div
           id="slide2"
-          class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner2.png)] h-[50vh] lg:h-[80vh] flex justify-center items-center"
+          class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner2.png)] bg-center bg-cover h-[50vh] lg:h-[80vh] flex justify-center items-center"
         >
           <div class="text-center">
             <h1 class="text-[45px] lg:text-[72px] font-bold text-white">
@@ -106,7 +106,7 @@
         </div>
         <div
           id="slide3"
-          class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner1.png)] h-[50vh] lg:h-[80vh] flex justify-center items-center"
+          class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner1.png)] bg-center bg-cover h-[50vh] lg:h-[80vh] flex justify-center items-center"
         >
           <div class="text-center">
             <h1 class="text-[45px] lg:text-[72px] font-bold text-white">
@@ -131,7 +131,7 @@
         </div>
         <div
           id="slide4"
-          class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner1.png)] h-[50vh] lg:h-[80vh] flex justify-center items-center"
+          class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner1.png)] bg-center bg-cover h-[50vh] lg:h-[80vh] flex justify-center items-center"
         >
           <div class="text-center">
             <h1 class="text-[45px] lg:text-[72px] font-bold text-white">
@@ -178,10 +178,234 @@
       </div>
     </div>
     <!-- banner section end -->
-    <!-- Deal the day section start -->
-     
-    <!-- deal the day section end -->
-    <main class=""></main>
+
+    <main class="">
+      <!-- Deal the day and card section start -->
+      <section class="my-24 py-24 container lg:px-24 px-8 mx-auto">
+        <div class="flex justify-center items-center">
+          <div class="">
+            <h1 class="text-[48px] font-extrabold">Deal of the day</h1>
+            <p class="w-2/3">
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical Latin literature from 45 BC, making
+              it over 2000 years old.
+            </p>
+          </div>
+          <div>
+            <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value: 15" aria-live="polite" aria-label="15"
+                    >15</span
+                  >
+                </span>
+                days
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value: 10" aria-live="polite" aria-label="10"
+                    >10</span
+                  >
+                </span>
+                hours
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value: 24" aria-live="polite" aria-label="24"
+                    >24</span
+                  >
+                </span>
+                min
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value: 59" aria-live="polite" aria-label="59"
+                    >59</span
+                  >
+                </span>
+                sec
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card section start -->
+        <div class="mt-10 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
+          <div
+            class="border-2 flex items-center justify-center px-4 py-6 flex-col space-y-2"
+          >
+            <img src="images/fruit6.png" alt="" />
+            <h2 class="text-[24px] font-bold">12.90$ - 18.85$</h2>
+            <hr />
+            <p>Apples</p>
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="1 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="2 star"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="3 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="4 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="5 star"
+              />
+            </div>
+            <button class="btn btn-ghost text-[#F85559]">Details</button>
+          </div>
+          <div
+            class="border-2 flex items-center justify-center px-4 py-6 flex-col space-y-2"
+          >
+            <img src="images/fruit2.png" alt="" />
+            <h2 class="text-[24px] font-bold">12.90$ - 18.85$</h2>
+            <hr />
+            <p>Apples</p>
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="1 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="2 star"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="3 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="4 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="5 star"
+              />
+            </div>
+            <button class="btn btn-ghost text-[#F85559]">Details</button>
+          </div>
+          <div
+            class="border-2 flex items-center justify-center px-4 py-6 flex-col space-y-2"
+          >
+            <img src="images/fruit2.png" alt="" />
+            <h2 class="text-[24px] font-bold">12.90$ - 18.85$</h2>
+            <hr />
+            <p>Apples</p>
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="1 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="2 star"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="3 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="4 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="5 star"
+              />
+            </div>
+            <button class="btn btn-ghost text-[#F85559]">Details</button>
+          </div>
+          <div
+            class="border-2 flex items-center justify-center px-4 py-6 flex-col space-y-2"
+          >
+            <img src="images/fruit5.png" alt="" />
+            <h2 class="text-[24px] font-bold">12.90$ - 18.85$</h2>
+            <hr />
+            <p>Apples</p>
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="1 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="2 star"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="3 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="4 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="5 star"
+              />
+            </div>
+            <button class="btn btn-ghost text-[#F85559]">Details</button>
+          </div>
+        </div>
+        <div class="mt-10 text-center">
+          <button class="btn btn-secondary">Secondary</button>
+        </div>
+        <!-- card section end -->
+      </section>
+      <!-- deal the day and card section end -->
+    </main>
     <footer></footer>
   </body>
 </html>
